@@ -1,0 +1,19 @@
+{
+  "name": "zachschultz.github.io",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build:css": "npx tailwindcss -i ./styles.css -o ./output.css --watch",
+    "start": "concurrently \"npm run build:css\" \"npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.0",
+    "postcss": "^8.4.49",
+    "vite": "^6.0.5"
+  }
+}

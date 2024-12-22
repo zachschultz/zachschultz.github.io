@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Roboto Mono", serif;
+}
+
+body {
+  font-family: inherit; /* Explicitly inherit from html. */
+}
